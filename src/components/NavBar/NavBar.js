@@ -1,11 +1,14 @@
 import {Link} from "gatsby";
 
+import * as css from "./NavBar.module.css"
 
-const navBar = () => {
+const NavBar = () => {
     return (
-        <div className="navOptions">
-            <Link href ="/"><strong>Home</strong></Link>
-            <Link href ="/resume"><strong>Resume</strong></Link>
-        </div>
+
+        <nav className={css.topNav}>
+            <Link to ="/"><strong>Home</strong></Link>
+            <Link to ="/resume"><strong>Resume</strong></Link>
+        </nav>
     )
 }
+export default NavBar;

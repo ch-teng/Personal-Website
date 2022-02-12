@@ -10,3 +10,5 @@ const Layout = ({pageTitle, children}) => {
         </div>
     )
 }
+
+export default Layout

@@ -1,0 +1,14 @@
+body,html{margin: 0}
+body {
+  background: #FAF9F9;
+  color: #1B0A01;
+  font-family: "Nunito";
+}
+a {
+  text-decoration: none;
+
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
