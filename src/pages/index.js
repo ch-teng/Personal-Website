@@ -27,7 +27,7 @@ const IndexPage = () => {
         <a href= "https://github.com/ch-teng" target="_blank"><div className={home.GitHub}>GitHub</div></a>
         <Link to="/resume"><div className={home.Resume}>Resume</div></Link>
         <div className={home.PersonalEmail} onClick={() => {navigator.clipboard.writeText("Chris.R.Teng@gmail.com"); alert("Chris.R.Teng@gmail.com has been copied to clipboard")}}>
-          <span className={home.DisplayedEmail}>Personal Email</span> 
+          Personal Email
           </div>
         
       </div>

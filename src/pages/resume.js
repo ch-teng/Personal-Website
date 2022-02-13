@@ -9,9 +9,9 @@ const ResumePage = () => {
             <StaticImage src ="../images/TengResume.jpg" className={css.img}></StaticImage> 
         </div>
         <div className={css.links}>
-            <Link to="/"><div className={css.home}>Return Home</div></Link>
+            <Link to="/"><div>Return Home</div></Link>
             <a href={Resume} download>
-                <div className={css.download}> Download PDF</div>    
+                <div >Download PDF</div>    
             </a>
             
         </div>
