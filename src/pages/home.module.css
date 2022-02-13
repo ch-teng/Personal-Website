@@ -7,7 +7,7 @@
     width: 100vw;
     max-width: 100%;
 	height: 100vh;
-    min-width: 600px;
+    /* min-width: 600px; */
     position: relative;
 	display: flex;
     justify-content: center;
@@ -58,6 +58,8 @@
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards;
 }
+
+
 
 @keyframes fall{
 	0%{
@@ -126,8 +128,9 @@ a{
 
 .links div {
     padding: 1em 2em;
+    margin-bottom: 1em;
     border-radius:  10%;
-    border: solid black 2px;
+    border: solid black 4px;
     transition: .5s;
     animation-duration: .5s;
     animation-timing-function: ease-in;
@@ -161,22 +164,18 @@ a{
     animation-name: right-float-in;
     animation-delay: 3.25s;
     --border-color: #B8336A;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    white-space: nowrap;
-    transition: 1s;
 }
 
-.EmailClicked {
-    display: none;
-}
-
-
-.PersonalEmail:active {
-    border-color: #72E1D1;
-    
+@media only screen and (max-width: 600px) {
+    .GitHub {
+        animation-name: above-float-in;
+    }
+    .Resume {
+        animation-name: right-float-in;
+    }
+    .PersonalEmail {
+        animation-name: below-float-in;
+    }
 }
 
 @keyframes left-float-in {
