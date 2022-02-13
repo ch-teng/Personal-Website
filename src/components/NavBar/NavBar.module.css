@@ -9,6 +9,7 @@ nav.topNav{
     justify-content:center;
     align-items: center;
     border-bottom: 1px solid #ddd;
+    z-index: 1;
   }
   nav.topNav a {
     color: #F9FAF4;
