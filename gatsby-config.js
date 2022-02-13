@@ -7,6 +7,12 @@ module.exports = {
         'gatsby-plugin-image',
         'gatsby-plugin-sharp',
         {
+            resolve: 'gatsby-plugin-layout',
+            options: {
+                component: require.resolve('./src/components/Layout'),
+            }
+        },
+        {
             resolve: `gatsby-source-filesystem`,
             options: {
               name: `pages`,

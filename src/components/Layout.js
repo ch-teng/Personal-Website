@@ -1,5 +1,5 @@
+import css from "../../global.css";
 import Footer from "./Footer/Footer";
-import NavBar from "./NavBar/NavBar";
 
 const Layout = ({pageTitle, children}) => {
     return (
